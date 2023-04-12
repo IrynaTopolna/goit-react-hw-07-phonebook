@@ -36,7 +36,6 @@ const PhoneBookForm = () => {
     }
 
     dispatch(addContact({ name, phone }));
-    console.log(name, phone);
 
     resetForm();
   };
